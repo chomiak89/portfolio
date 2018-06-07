@@ -1,0 +1,48 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #a2a6ad;
+  padding: 0 5% 0 5%;
+  font-family: 'Poiret One', cursive;
+  border-bottom: 2px solid #000;
+  overflow: hidden; //Fixed nav styles start
+  position: fixed;
+  top: 0;
+  width: 90%; //Fixed nav styles end
+}
+header ul {
+  list-style-type: none;
+  margin: auto 0;
+    li {
+      display: inline-block;
+    }
+    a {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #000;
+      margin-left: 10px;
+       &:hover {
+         text-decoration: underline;
+       }
+    }
+}
+
+
+//==============================================================================
+//=====     MEDIA QUERIES
+//==============================================================================
+@media only screen and (max-width: 450px) {
+  header {
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+      ul {
+        padding: 0;
+          li a {
+            margin-right: 10px;
+          }
+      }
+  }
+}
