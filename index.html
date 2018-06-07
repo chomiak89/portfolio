@@ -2,11 +2,14 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Kamil Chomiak - Web Developer</title>
     <link rel="stylesheet" type="text/css" href="styles.min.css";>
     <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Advent+Pro" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
 
   </head>
   <body>
@@ -21,10 +24,30 @@
     </header>
 
     <div class="mainPgCntnt1">
+      <div class="terminalNavBar">
+        <ul>
+          <li><a href="#">File</a></li>
+          <li><a href="#">Edit</a></li>
+          <li><a href="#">View</a></li>
+        </ul>
+        <div>
+          <button type="button">&mdash;</button>
+          <button type="button">&EmptySmallSquare;</button>
+          <button class="btnRed" type="button">&Cross;</button>
+        </div>
+      </div>
       <p class="code">&gt; var x = "Hello World!";<br>&gt; console.log(x.toUpperCase());</p>
-      <p><span class="aquaColor">HELLO </span>WORLD!</p>
+      <p><span class="aquaColor bold large">HELLO </span>WORLD!</p>
+      <p class="code">&gt; var name = "Kamil Chomiak"; <br> &gt; if (name === "Kamil Chomiak") { <br> &nbsp;&nbsp;&nbsp;&nbsp; var profession = "Aspiring Web Developer" <br> &nbsp; }; <br> &gt; console.log("My name is " + name + " and I'm an " + profession + "!");</p>
+      <p class="aquaColor bold large">My name is Kamil Chomiak and I'm an Aspiring Web Developer!</p>
+      <p class="code">&gt; <span class="blinking-cursor">|</span></p>
       <h2><span class="purpleColor">@media</span> only screen and (max-width: <span id="dimensions"></span>)</h2>
     </div>
+
+    <div>
+      <img src="img/mac.jpeg">
+    </div>
+
 
     <footer>
     </footer>

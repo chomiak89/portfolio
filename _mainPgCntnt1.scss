@@ -1,4 +1,116 @@
 .mainPgCntnt1 {
-  margin-top: 100px;
-  padding: 0 5% 0 5%;
+  margin: 100px 5% 0 5%;
+  width: 90%;
+  font-family:'Montserrat', sans-serif;
+  border: 1px solid #a2a6ad;
 }
+
+.terminalNavBar {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #a2a6ad;
+  background-color: #e3e4e5;
+    button {
+      border: none;
+      background-color: #e3e4e5;
+      height: 100%;
+        &:hover {
+          background-color: #cfd0d1;
+        }
+    }
+    ul {
+      list-style-type: none;
+      margin: 2px 0;
+      padding: 0;
+        li {
+          display: inline-block;
+            a {
+              text-decoration: none;
+              color: #000;
+              // line-height: 100%;
+                &:hover {
+                  background-color: #cfd0d1;
+                }
+            }
+        }
+    }
+}
+
+.btnRed:hover {
+  background-color: #ff1500 !important;
+}
+//================================================ BLINKING CURSOR START
+.blinking-cursor {
+  font-weight: 100;
+  font-size: 20px;
+  color: #2E3D48;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+//================================================ BLINKING CURSOR END
+
+// header ul {
+//   list-style-type: none;
+//   margin: auto 0;
+//     li {
+//       display: inline-block;
+//     }
+//     a {
+//       text-decoration: none;
+//       text-transform: uppercase;
+//       font-weight: bold;
+//       color: #000;
+//       margin-left: 10px;
+//        &:hover {
+//          text-decoration: underline;
+//        }
+//     }
+// }
