@@ -10,6 +10,7 @@ header {
   position: fixed;
   top: 0;
   width: 90%; //Fixed nav styles end
+  z-index: 10;
 }
 header ul {
   list-style-type: none;

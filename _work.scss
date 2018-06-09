@@ -1,0 +1,61 @@
+.workContainer {
+  font-family:'Montserrat', sans-serif;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.workHeading{
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 4%;
+  text-align: center;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+    h1{
+      display: flex;
+      justify-content: center;
+    }
+}
+.workHeading h1:before {
+  content: "";
+  display: block;
+  border-top: solid 1px black;
+  width: 70%;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+}
+
+.workHeading h1 span {
+  background: #fff;
+  padding: 0 20px;
+  position: relative;
+  z-index: 5;
+  margin: 0 auto;
+}
+
+.workExamples1,
+.workExamples2 {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  margin-top: 15%;
+  flex-wrap: wrap;
+}
+.workExamples2 {
+  margin-top: 0;
+}
+.example {
+  width: 300px;
+  height: 200px;
+  border: 1px solid red;
+  margin-top: 2%;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+}
